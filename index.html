@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rehab de vilão</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <main class="container">
+    <div class="title">
+      <p>bem vindo a</p>
+      <h1>Clínica de Reabilitação de Vilões</h1>
+    </div>
+    <section>
+      <div class="hosp img"></div>
+      <div class="textBox">
+        <p class="insideText">Aqui recebemos todas as pessoas que querem deixar os dias de <span class="red">maldade</span> e <span class="red">vilania</span> para trás.<br>Hoje um de nossos estimados pacientes receberá alta! Cabe a você acompanha-lo e garantir que a <span class="blue">bondade</span> prevalecerá!</p>
+      </div>
+      <h2 class="green">SELECIONE SEU PERSONAGEM</h2>
+      <div class="boxchar">
+        <div class="legenBox">
+          <button class="img dracu" onclick="nextStage('d1')"></button>
+          <div class="legen"><span class="red">Draculão</span><br>o vampiro doidão</div>
+        </div>
+        <div class="legenBox">
+          <button class="img naza" onclick="nextStage('n1')"></button>
+          <div class="legen"><span class="red">Nazaré</span><br>ela empurra pessoas da escada</div>
+        </div>  
+        <div class="legenBox">
+          <button class="img tamos" onclick="nextStage('t1')"></button>
+          <div class="legen"><span class="red">Tamos</span><br>ele é mal</div>
+        </div>
+      </div>
+    </section>
+    <div class="atribui">Esse é um jogo text-based feito para fins de estudo na <a href="https://www.linkedin.com/school/resilia-educacao/?originalSubdomain=br">Resilia Educação</a> por <a href="https://github.com/ivancda">Ivan Coelho</a></div>
+  </main>
+  <footer></footer>
+</body>
+</html>
+
