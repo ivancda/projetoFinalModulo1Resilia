@@ -118,6 +118,7 @@ section h2{
   filter: invert(20%);
 }
 .legen{
+  margin-top: 1em;
   text-align: center;
   font-size: 1em;
   max-width: 250px;
