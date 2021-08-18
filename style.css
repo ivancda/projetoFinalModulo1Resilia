@@ -51,6 +51,7 @@ body{
   color: white;
   font-family: 'Press Start 2P', cursive;
   font-size: 14px;
+  line-height: 2em;
 }
 .title{
   text-align: center;
@@ -123,9 +124,6 @@ section h2{
   font-size: 1em;
   max-width: 250px;
 }
-a{
-  color: white;
-}
 .ansList{
   display: flex;
   justify-content: space-around;
@@ -135,6 +133,7 @@ a{
 }
 .ansList li{
   max-width: 30%;
+  line-height: 1.5em;
 }
 .ansList li::marker{
   color: red;
@@ -151,4 +150,34 @@ a{
 .bttn:hover{
   background-color: black;
   color: white;
+}
+.atribui{
+  text-align: center;
+}
+a{
+  color: white;
+}
+
+@media (max-width: 1116px){
+
+  .textBox{
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+  .img{
+    width: 250px;
+  }
+  .ansList{
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxchar{
+    flex-direction: column;
+    align-items: center;
+  }
+  section h2{
+    text-align: center;
+  }
+
 }
